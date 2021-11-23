@@ -1,0 +1,106 @@
+Biostasis Consultant.
+El consultor de biostasis es un programa que actúa cómo sistema experto de consulta.
+Seleccionado los valores de elección en los desplegables puede planificar los pasos y
+costes hacia su futura suspensión criónica. Este programa incluye las variables a optar
+por cada paso a dar, llevando la consulta por medio de la lógica ramificada y
+permitiendo tomar la decisión que mejor se ajuste a sus condiciones.
+El autor se exime de posibles limitaciones en el programa, ya que existen demasiadas
+variables y el diseño se ha acotado a las mejor conocidas. No considere los resultados
+escritos en piedra. Si usted tiene mejores vías de acción para conseguir su objetivo, no
+dude en llevarlas a cabo. Si tiene alguna nueva información que podamos agregar al
+sistema experto, por favor envíe un correo a: cryonics.spain@gmail.com
+Nota: los valores en dólares han sido traducidos a euros por la cotización de 19 de
+Mayo de 2021.
+Nota 2: Adjunte su correo para poder recibir sus resultados y así poder analizar sus
+elecciones. No se preocupe, no se guardan los correos por respeto a su privacidad.
+*Obligatorio
+1.
+Correo *
+Documentación
+2.
+Aquí debe elegir la forma en que va a registrar sus últimas voluntades,
+testamento, representante, contador-pagador y últimas instrucciones.
+¿Qué tipo de servicio legal prefiere? *
+Marca solo un óvalo.
+Abogado colegiado y notario (1500€) Máxima protección y en la administración
+pública.
+Salta a la pregunta 3
+Buffete de abogados en linea (250€) Usted tiene que redactar todo el documento
+sin conocer la ley.
+Salta a la pregunta 3
+Documentación olografa, escrito de puño y letra. (0€) Fácil de extraviar y prueba
+débil ante un juicio.
+Salta a la pregunta 3
+Archivo
+biográfico
+Consiste en guardar una muestra genética de algún tejido del paciente por si en el
+futuro se necesitara ADN en buenas condiciones para reparaciones médicas, en
+caso de ser necesario. Y de un archivo biográfico personal que el paciente
+recopila en vida y lo guarda en un formato imperecedero cómo discos Blue-Ray de
+23/11/21 23:26Biostasis Consultant.
+2 de 3
+https://docs.google.com/forms/u/1/d/1oOQO16wXlZCh...
+y
+genético.
+3.
+grado archivo, para posible tratamiento de lagunas de memoria. En cierta forma es
+cómo una copia de seguridad complementaria a usted.
+¿Qué opción escoja para tener una copia de seguridad? *
+Marca solo un óvalo.
+Muestra de ADN (100€) Hay empresas, pero también medios DIY para hacerlo.
+Salta a la pregunta 4
+Archivo biográfico (50€) Sólo necesita un ordenador donde guardarlo todo.
+Salta a la pregunta 4
+Muestra y Archivo (150€)
+Salta a la pregunta 4
+Nada (0€) Riesgo de no reparar el ADN y amnesia.
+SST son las siglas del acrónimo Standby, Stabilization and Transport. Significa Soporte,
+estabilización/perfusión y transporte.Existen diversas organizaciones que proveen de éste
+servicio. También lo pueden realizar funerarias con embalsamadores en conjunción con
+voluntarios de los grupos locales criónicos.
+SST
+4.
+Salta a la pregunta 4
+¿Qué servicio SST desea? *
+Marca solo un óvalo.
+ICE (International Cryomedicina Experts) (73688,99€) Atención 24/7, atienden
+internacionalmente.
+Salta a la pregunta 5
+Suspended Animation Inc (49125,99€) 24/7 atienden internacionalmente
+Salta a la pregunta 5
+Biostasis Spain (10.200€) Local, implica voluntarios y subcontratación de
+servicios.
+Salta a la pregunta 5
+Turismo criónico (1.500€) Implica medicación en caso terminal, pasaporte y
+horas de vuelo.
+Salta a la pregunta 5
+Centro
+criónico
+de
+destino.
+Aquí puede elegir el centro criónico de elección. Hemos intentado desglosar las
+opciones por coste y forma de registro con éstas organizaciones. De mayor a menor.
+Así puede usted elegir un centro de destino. No quiere decir que sea algo fijo. Puede
+siempre cambiar de parecer sis sus condiciones cambian. Tenga siempre cuidado al
+dar cada paso, piénselo bien aplicando pros y contras.
+23/11/21 23:26Biostasis Consultant.
+3 de 3
+5.
+https://docs.google.com/forms/u/1/d/1oOQO16wXlZCh...
+¿Qué centro quiere de destino? *
+Marca solo un óvalo.
+Tomorrow Biostasis (Cuerpo:250.000€) Suiza, territorio neutral.
+Alcor (Cuerpo: 163.753,3€) USA
+Alcor (Cabeza: 65.501,32€)USA
+Oregon Cryonics (Cabeza: 39.300,79€)USA
+Oregon Cryonics (Caja craneal: 34.388,19€) USA
+Kriorus (Cuerpo: 30.000€) Rusia
+Cryonics Institute (Membresia postmortem: 28.656,83€) USA
+Cryonics Institute (Membresía de por vida pre mortem: 23.948,92€)USA
+Kriorus (Cabeza internacional: 18.000€) Rusia
+Oregon Cryonics (Cerebro vitrificado: 16.375,33€) USA
+Kriorus (Cabeza relocalizado en Moscú: 13.000€) Rusia
+Oregon Cryonics (Cerebro congelado directamente: 5.731,37€) USA
+Oregon Cryonics ( Cerebro en almacenamiento líquido: 900€) USA
+Cryonics germany (Cerebros humanos: 0€, casos de carestía. Nuevos, pequeños)
+Alemánia

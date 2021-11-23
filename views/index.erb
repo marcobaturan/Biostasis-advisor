@@ -33,9 +33,31 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+        <h4>Biostasis advisor Expert system</h4>
+        <div>
+          <p>This small web application is a free service.</p>
+        <p>It is aimed at helping to select the combination of services</p>
+          <p>that can fit into the personal finances</p>
+          <p>of a person interested in cryonics.</p>
+
+          <p>A form is displayed below where you only have to</p>
+          <p>select the factors that condition the most appropriate answer.</p>
+          <p>likely response for you and possible ways to proceed.</p>
+
+        <p>Eventually it will be modified and extended to more existing services.</p>
+    </div>
+      <div>
+        /* formulario */
+        <form method= "POST" action="/result">
+          <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
       </div>
     </div>
   </div>
