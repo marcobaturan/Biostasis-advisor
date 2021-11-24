@@ -21,7 +21,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-
+  <style>#example1 {
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px;
+  }</style>
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -34,27 +38,137 @@
   <div class="container">
     <div class="row">
         <h4>Biostasis advisor Expert system</h4>
-        <div>
-          <p>This small web application is a free service.</p>
-        <p>It is aimed at helping to select the combination of services</p>
-          <p>that can fit into the personal finances</p>
-          <p>of a person interested in cryonics.</p>
-
-          <p>A form is displayed below where you only have to</p>
-          <p>select the factors that condition the most appropriate answer.</p>
-          <p>likely response for you and possible ways to proceed.</p>
+        <div id="example1">
+          <p>Biostasis Consultant is a program that acts as an expert consulting system.</p>
+          <p>By selecting the values of your choice from the drop-down menus, you can plan the steps and costs for your</p>
+          <p>costs towards your future cryonic suspension. This program includes the variables to choose</p>
+          <p>for each step to be taken, leading the query by means of branched logic and allowing you to make the</p>
+          <p>allowing you to make the decision that best suits your conditions.</p>
+          <p>The author disclaims any possible limitations in the program, since there are too many variables and the design has been</p>
+          <p>variables and the design has been limited to the best known ones. Do not consider the results</p>
+          <p>written in stone. If you have better courses of action to achieve your goal, do not hesitate to pursue them.</p>
+          <p>hesitate to pursue them. If you have any new information that we can add to the</p>
+          <p>expert system, please send an email to: cryonics.spain@gmail.com</p>
+          <p>Note: dollar values have been translated into euros as of May 19, 2021.</p>
 
         <p>Eventually it will be modified and extended to more existing services.</p>
     </div>
-      <div>
-        /* formulario */
+      <br>
+      <br>
+      <div >
         <form method= "POST" action="/result">
-          <fieldset>
-            <legend>Personalia:</legend>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <fieldset id ="example1">
+            <p>Calculation of average family life expectancy.</p>
+
+            <p>This calculation gives a rough estimate. It is not valid because the future cannot be predicted.</p>
+            <p>But a statistical probability can be derived. This formula is based on the sum of the current or</p>
+            <p>deceased ages of the paternal grandparents, maternal grandparents, father, mother and subject.</p>
+            <p>Ideally it even averages with the national average life expectancy. It takes the estimated average.</p>
+
+            <p>This data is used to guide the person concerned on the basis of his current age how much he has</p>
+            <p>to save per month as a supplementary plan to the life insurance, in case he exceeds the statistical</p>
+            <p>estimates of the latter, in order to be able to pay for all necessary services and to make his</p>
+            <p>biostasis suspension plan work well.</p>
+
+            </p>Introuce te data:</p>
+            <label for="maternalgrandmother">maternal grandmother</label><br>
+            <input type="text" id="maternalgrandmother" name="maternalgrandmother" value="0"><br>
+            <label for="maternalgrandfather">maternal grandfather</label><br>
+            <input type="text" id="maternalgrandfather" name="maternalgrandfather" value="0"><br>
+            <label for="paternalgrandmother">paternal grandmother</label><br>
+            <input type="text" id="paternalgrandmother" name="paternalgrandmother" value="0"><br>
+            <label for="paternalgrandfather">paternal grandfather</label><br>
+            <input type="text" id="paternalgrandfather" name="paternalgrandfather" value="0"><br>
+            <label for="mother">mother</label><br>
+            <input type="text" id="mother" name="mother" value="0"><br>
+            <label for="father">father</label><br>
+            <input type="text" id="father" name="father" value="0"><br>
+            <label for="Me">Me</label><br>
+            <input type="text" id="Me" name="Me" value="0"><br>
+            <label for="lifeexpectancy">lifeexpectancy</label><br>
+            <input type="text" id="lifeexpectancy" name="lifeexpectancy" value="0"><br>
+
+            <p>Select the factors:</p>
+            <p>What type of legal service do you prefer?</p>
+            <select id="legal" name="legals">
+              <option value="1500">Lawyer and notary (1500€) Maximum protection and in the public administration.
+                public administration.</option>
+              <option value="250">Online law firm (250€) You have to draw up the whole document
+                without knowing the law.</option>
+              <option value="0">Holographic documentation, handwritten in your own handwriting. (0€) Easy to misplace and weak evidence
+                weak evidence in court.</option>
+            </select>
+            <br>
+            <p>Biographical file</p>
+            <p>It consists of keeping a genetic sample of some of the patient's tissue in case DNA is needed in the future for</p>
+            <p>DNA in good condition is needed in the future for medical repairs, if necessary.</p>
+            <p>should the need arise. And from a personal biographical file that the patient</p>
+            <p>collected in life and stored in an everlasting format such as archive-grade Blue-Ray discs, for possible</p>
+            <p>archive-grade Blue-Ray discs, for possible treatment of memory gaps. In a way it is</p>
+            <p>like a complementary backup copy to you.</p>
+            <p>Which option do you choose to have a backup?</p>
+            <br>
+            <select id="backup" name="backups">
+              <option value="100">DNA sample (100€) There are companies, but also DIY means to do it.</option>
+              <option value="50">Biographical file (50€) You just need a computer to store it all on.</option>
+              <option value="150">Sample and Archive (150€)</option>
+              <option value="0">Nothing (0€) Risk of no DNA repair and amnesia.</option>
+            </select>
+            <br>
+            <p>SST stands for Standby, Stabilization and Transport. It stands for Standby,</p>
+            <p>There are several organisations that provide this service.</p>
+            <p>There are several organisations that provide this service. It can also be provided by funeral</p>
+            <p>homes with embalmers in conjunction with volunteers from local cryonics groups.</p>
+            <p>volunteers from local cryonics groups.</p>
+            <p>What SST service do you want?</p>
+            <select id="SST" name="SSTs">
+              <option value="73688">ICE (International Cryomedicine Experts) (73688€) 24/7 service, they are available internationally.
+                internationally.</option>
+              <option value="49125">Suspended Animation Inc (49125,99€) 24/7 service, serves internationally.
+              </option>
+              <option value="12000">Biostasis Spain (12.000€) Local, involves volunteers and outsourcing of
+                services.</option>
+              <option value="1500">Cryonics Tourism (€1,500) Involves medication in terminal case, passport and
+                flight hours.</option>
+            </select>
+            <br>
+            <p>Destination cryonics centre.</p>
+
+            <p>Here you can choose the cryonics centre of your choice. We have tried to break down the</p>
+            <p>options by cost and form of registration with these organisations. From highest to lowest.</p>
+            <p>This way you can choose a destination centre. This does not mean that it is fixed. You can</p>
+            <p>always change your mind if your conditions change. Always be careful when</p>
+            <p>always be careful when taking each step, think it through, applying pros and cons.</p>
+            <select id="facility" name="Facilities">
+              <option value="250000">Tomorrow Biostasis (Body: €250,000) Switzerland, neutral territory.
+              </option>
+              <option value="164000">Alcor (Body: €163,753.3) USA
+              </option>
+              <option value="66000">Alcor (Head: €65,501.32)USA
+              </option>
+              <option value="40000">Oregon Cryonics (Head: €39,300.79)USA
+              </option>
+              <option value="35000">Oregon Cryonics (Cranial body: 34.388,19€) USA
+              </option>
+              <option value="30000">Kriorus (Body: 30.000€) Russia
+              </option>
+              <option value="29000">Cryonics Institute (Postmortem membership: €28,656.83) USA</option>
+              <option value="24000">Cryonics Institute (Lifetime pre-mortem membership: €23,948.92)USA</option>
+              <option value="18000">Kriorus (International Head: €18,000) Russia
+              </option>
+              <option value="17000">Oregon Cryonics (Vitrified brain: €16,375.33) USA
+              </option>
+              <option value="14000">Kriorus (Head relocated to Moscow: 13.000€) Russia
+              </option>
+              <option value="6000">Oregon Cryonics (Brain frozen directly: 5.731,37€) USA
+              </option>
+              <option value="900">Oregon Cryonics (Brain in liquid storage: 900€) USA
+              </option>
+              <option value="0">Cryonics germany (Human brains: 0€, shortage cases. New, small)
+              </option>
+            </select>
+            <br>
+            <br>
             <input type="submit" value="Submit">
           </fieldset>
         </form>
