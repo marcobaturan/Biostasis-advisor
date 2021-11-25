@@ -25,7 +25,11 @@
       border: 1px solid;
       padding: 10px;
       box-shadow: 5px 10px;
-  }</style>
+  }
+  html,body {
+      background-color: lightgray;
+  }
+  </style>
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -37,7 +41,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-        <h4>Biostasis advisor Expert system</h4>
+        <h4 id="example1">Biostasis advisor Expert system</h4>
+        <br>
+        <br>
         <div id="example1">
           <p>Biostasis Consultant is a program that acts as an expert consulting system.</p>
           <p>By selecting the values of your choice from the drop-down menus, you can plan the steps and costs for your</p>
@@ -72,25 +78,25 @@
 
             </p>Introuce te data:</p>
             <label for="maternalgrandmother">maternal grandmother</label><br>
-            <input type="text" id="maternalgrandmother" name="maternalgrandmother" value="0"><br>
+            <input type="number" id="maternalgrandmother" name="maternalgrandmother" value="" required><br>
             <label for="maternalgrandfather">maternal grandfather</label><br>
-            <input type="text" id="maternalgrandfather" name="maternalgrandfather" value="0"><br>
+            <input type="number" id="maternalgrandfather" name="maternalgrandfather" value="" required><br>
             <label for="paternalgrandmother">paternal grandmother</label><br>
-            <input type="text" id="paternalgrandmother" name="paternalgrandmother" value="0"><br>
+            <input type="number" id="paternalgrandmother" name="paternalgrandmother" value="" required><br>
             <label for="paternalgrandfather">paternal grandfather</label><br>
-            <input type="text" id="paternalgrandfather" name="paternalgrandfather" value="0"><br>
+            <input type="number" id="paternalgrandfather" name="paternalgrandfather" value="" required><br>
             <label for="mother">mother</label><br>
-            <input type="text" id="mother" name="mother" value="0"><br>
+            <input type="number" id="mother" name="mother" value="" required><br>
             <label for="father">father</label><br>
-            <input type="text" id="father" name="father" value="0"><br>
-            <label for="Me">Me</label><br>
-            <input type="text" id="Me" name="Me" value="0"><br>
+            <input type="number" id="father" name="father" value="" required><br>
+            <label for="me">Me</label><br>
+            <input type="number" id="me" name="me" value="" required><br>
             <label for="lifeexpectancy">lifeexpectancy</label><br>
-            <input type="text" id="lifeexpectancy" name="lifeexpectancy" value="0"><br>
+            <input type="number" id="lifeexpectancy" name="lifeexpectancy" value="" required><br>
 
             <p>Select the factors:</p>
             <p>What type of legal service do you prefer?</p>
-            <select id="legal" name="legals">
+            <select id="legal" name="legal">
               <option value="1500">Lawyer and notary (1500€) Maximum protection and in the public administration.
                 public administration.</option>
               <option value="250">Online law firm (250€) You have to draw up the whole document
@@ -108,7 +114,7 @@
             <p>like a complementary backup copy to you.</p>
             <p>Which option do you choose to have a backup?</p>
             <br>
-            <select id="backup" name="backups">
+            <select id="backup" name="backup">
               <option value="100">DNA sample (100€) There are companies, but also DIY means to do it.</option>
               <option value="50">Biographical file (50€) You just need a computer to store it all on.</option>
               <option value="150">Sample and Archive (150€)</option>
@@ -121,7 +127,7 @@
             <p>homes with embalmers in conjunction with volunteers from local cryonics groups.</p>
             <p>volunteers from local cryonics groups.</p>
             <p>What SST service do you want?</p>
-            <select id="SST" name="SSTs">
+            <select id="SST" name="SST">
               <option value="73688">ICE (International Cryomedicine Experts) (73688€) 24/7 service, they are available internationally.
                 internationally.</option>
               <option value="49125">Suspended Animation Inc (49125,99€) 24/7 service, serves internationally.
@@ -139,7 +145,7 @@
             <p>This way you can choose a destination centre. This does not mean that it is fixed. You can</p>
             <p>always change your mind if your conditions change. Always be careful when</p>
             <p>always be careful when taking each step, think it through, applying pros and cons.</p>
-            <select id="facility" name="Facilities">
+            <select id="facility" name="facility">
               <option value="250000">Tomorrow Biostasis (Body: €250,000) Switzerland, neutral territory.
               </option>
               <option value="164000">Alcor (Body: €163,753.3) USA
@@ -169,10 +175,11 @@
             </select>
             <br>
             <br>
-            <input type="submit" value="Submit">
+            <input id="Button" type="submit" value="Submit">
           </fieldset>
         </form>
       </div>
+      <br>
     </div>
   </div>
 
