@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>BAES</title>
+  <meta name="Biostasis advisor expert system" content="">
+  <meta name="Trscem" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <style>#example1 {
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px;
+  }
+
+  html, body {
+      background-color: lightgray;
+  }
+  </style>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>Results</title>
+
+</head>
+<body>
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+  <div id="example1" class="row">
+    <h3>Results</h3>
+    <p>Your statistical average life expectancy is: <%= @longevity %> years.</p>
+    <p>At your current age <%= @age %> you have to save <%= @save %> euros per month until</p>
+    <p>you reach your target.</p>
+    <p>As a supplement to your life insurance to finance your biostasis.</p>
+    <p>Have a nice day.</p>
+  </div>
+</div>
+</body>
+</html>
