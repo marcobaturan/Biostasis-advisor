@@ -46,23 +46,24 @@
         <br>
         <div id="example1">
           <p>Biostasis Consultant is a program that acts as an expert consulting system.</p>
-          <p>By selecting the values of your choice from the drop-down menus, you can plan the steps and costs for your</p>
-          <p>costs towards your future cryonic suspension. This program includes the variables to choose</p>
-          <p>for each step to be taken, leading the query by means of branched logic and allowing you to make the</p>
-          <p>allowing you to make the decision that best suits your conditions.</p>
-          <p>The author disclaims any possible limitations in the program, since there are too many variables and the design has been</p>
-          <p>variables and the design has been limited to the best known ones. Do not consider the results</p>
-          <p>written in stone. If you have better courses of action to achieve your goal, do not hesitate to pursue them.</p>
-          <p>hesitate to pursue them. If you have any new information that we can add to the</p>
+          <p>By selecting the values of your choice from the drop-down menus, you can plan</p>
+          <p>the steps and costs for your future cryonic suspension. This program includes </p>
+          <p>the variables to choose for each step to be taken, leading the query by means of  </p>
+          <p>branched logic and allowing you to make the decision that best suits your conditions.</p>
+          <p>The author disclaims any possible limitations in the program, since there </p>
+          <p>are too many variables and the design has been</p>
+          <p>limited to the best known ones. Do not consider the results</p>
+          <p>written in stone. If you have better courses of action to achieve your goal,</p>
+          <p>do not hesitate to pursue them.</p>
+          <p>If you have any new information that we can add to the</p>
           <p>expert system, please send an email to: cryonics.spain@gmail.com</p>
-          <p>Note: dollar values have been translated into euros as of May 19, 2021.</p>
-
-        <p>Eventually it will be modified and extended to more existing services.</p>
+          <p>Note: dollar values have been changed into euros as of May 19, 2021.</p>
+          <p>Eventually it will be modified and extended to more existing services.</p>
     </div>
       <br>
       <br>
-      <div >
-        <form method= "POST" action="/result">
+      <div>
+        <form class="row" method= "POST" action="/result">
           <fieldset id ="example1">
             <p>Calculation of average family life expectancy.</p>
 
@@ -76,7 +77,7 @@
             <p>estimates of the latter, in order to be able to pay for all necessary services and to make his</p>
             <p>biostasis suspension plan work well.</p>
 
-            </p>Introuce te data:</p>
+            </p>Introduce te data:</p>
             <label for="maternalgrandmother">maternal grandmother</label><br>
             <input type="number" id="maternalgrandmother" name="maternalgrandmother" value="" required><br>
             <label for="maternalgrandfather">maternal grandfather</label><br>
@@ -97,8 +98,7 @@
             <p>Select the factors:</p>
             <p>What type of legal service do you prefer?</p>
             <select id="legal" name="legal">
-              <option value="1500">Lawyer and notary (1500€) Maximum protection and in the public administration.
-                public administration.</option>
+              <option value="1500">Lawyer and notary (1500€) Maximum protection and in the public administration</option>
               <option value="250">Online law firm (250€) You have to draw up the whole document
                 without knowing the law.</option>
               <option value="0">Holographic documentation, handwritten in your own handwriting. (0€) Easy to misplace and weak evidence
@@ -106,33 +106,31 @@
             </select>
             <br>
             <p>Biographical file</p>
-            <p>It consists of keeping a genetic sample of some of the patient's tissue in case DNA is needed in the future for</p>
-            <p>DNA in good condition is needed in the future for medical repairs, if necessary.</p>
+            <p>It consists of keeping a genetic sample of some of the patient's tissue in case DNA is needed
+            <p>in the future for DNA in good condition is needed in the future for medical repairs, if necessary.</p>
             <p>should the need arise. And from a personal biographical file that the patient</p>
-            <p>collected in life and stored in an everlasting format such as archive-grade Blue-Ray discs, for possible</p>
-            <p>archive-grade Blue-Ray discs, for possible treatment of memory gaps. In a way it is</p>
+            <p>collected in life and stored in an everlasting format such as archive-grade Blue-Ray discs</p>
+            <p>for possible treatment of memory gaps. In a way it is</p>
             <p>like a complementary backup copy to you.</p>
             <p>Which option do you choose to have a backup?</p>
             <br>
             <select id="backup" name="backup">
+              <option value="150">Sample and Archive (150€)</option>
               <option value="100">DNA sample (100€) There are companies, but also DIY means to do it.</option>
               <option value="50">Biographical file (50€) You just need a computer to store it all on.</option>
-              <option value="150">Sample and Archive (150€)</option>
               <option value="0">Nothing (0€) Risk of no DNA repair and amnesia.</option>
             </select>
             <br>
             <p>SST stands for Standby, Stabilization and Transport. It stands for Standby,</p>
-            <p>There are several organisations that provide this service.</p>
             <p>There are several organisations that provide this service. It can also be provided by funeral</p>
             <p>homes with embalmers in conjunction with volunteers from local cryonics groups.</p>
-            <p>volunteers from local cryonics groups.</p>
             <p>What SST service do you want?</p>
             <select id="SST" name="SST">
               <option value="73688">ICE (International Cryomedicine Experts) (73688€) 24/7 service, they are available internationally.
                 internationally.</option>
               <option value="49125">Suspended Animation Inc (49125,99€) 24/7 service, serves internationally.
               </option>
-              <option value="12000">Biostasis Spain (12.000€) Local, involves volunteers and outsourcing of
+              <option value="12000">Funeral home (12.000€) Local, involves volunteers and outsourcing of
                 services.</option>
               <option value="1500">Cryonics Tourism (€1,500) Involves medication in terminal case, passport and
                 flight hours.</option>
@@ -144,7 +142,7 @@
             <p>options by cost and form of registration with these organisations. From highest to lowest.</p>
             <p>This way you can choose a destination centre. This does not mean that it is fixed. You can</p>
             <p>always change your mind if your conditions change. Always be careful when</p>
-            <p>always be careful when taking each step, think it through, applying pros and cons.</p>
+            <p>taking each step, think it through, applying pros and cons.</p>
             <select id="facility" name="facility">
               <option value="250000">Tomorrow Biostasis (Body: €250,000) Switzerland, neutral territory.
               </option>
