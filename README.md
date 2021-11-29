@@ -12,7 +12,7 @@ It is tested with the QA tool Robot Framework.
 It uses Sinatra, CoffeeScript, Ruby and Skeleton CSS for its design.
 
 ## URL
-[URL](https://biostasis-advisor.herokuapp.com/)
+[URL](https://safe-eyrie-26975.herokuapp.com/)
 
 ## E-mail contact
 crionics.spain@gmail.com
